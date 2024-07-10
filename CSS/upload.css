@@ -1,0 +1,81 @@
+/* Custom CSS for styling the modal and form */
+body{
+    background-image:100% ;
+}
+.modal-header {
+    /* Light background color for the header */
+    border-bottom: none; /* No border at the bottom */
+    text-align: center;
+    border-radius: 20px;
+    border-color: 2px solid #242121;
+    /* background-color: rgb(3, 3, 37); */
+    color: rgb(199, 197, 197);
+    font-size: 30px;
+}
+
+.modal-title {
+    color: #000; /* Title color */
+}
+
+.modal-body {
+    /* margin-left: 200px; */
+    padding: 30px;
+    background-color: #ced4da;
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; 
+    font-size: larger;
+    width: 60%;
+    margin-left: 300px;
+    border-radius: 10px;
+    border:2px solid #000;
+    height: auto;
+    
+}
+
+.form-control {
+    margin-bottom: 20px; /* Add spacing between form controls */
+    border-radius: 10px; /* Rounded corners */
+    border: 1px solid #0c335a; /* Border color */
+    size: 5dvh;
+}
+#recipeIngredients,
+#recipeProcedure {
+    height: 150px; /* Adjust the height as needed */
+    width: 250px;
+}
+
+.label {
+    margin-bottom: 5px; /* Add space between label and input field */
+}
+
+.input-wrapper {
+    width: 100%; /* Ensure the input wrapper takes full width */
+}
+
+.modal-footer {
+    border-top: none; /* No border at the top of the footer */
+}
+.btn {
+    margin-top: 16px;
+    padding: 10px 10px; /* Add padding to the buttons */
+    border-radius: 20px;
+}
+
+/* Style the secondary button */
+.btn-secondary {
+    background-color: #6c757d; /* Secondary button background color */
+    border-color: #6da8db; /* Secondary button border color */
+}
+
+/* Style the dark button */
+.btn-dark {
+    background-color: #343a40; /* Dark button background color */
+    border-color: #343a40; /* Dark button border color */
+    color: #fff; /* Dark button text color */
+}
+.carousel-inner {
+    height: 45vh;
+    width: 100%;
+    
+}

@@ -1,0 +1,69 @@
+body{
+    font-size: larger;
+    padding: 60px;
+    background-color: rgb(153, 160, 160);
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+}
+.row {
+    border: 3px solid #292727; /* Add border to row */
+    margin-bottom: 20px; /* Add space between rows */
+    position: relative;
+   border-radius: 10px;
+   background-color: azure;
+}
+
+.col-md-3 {
+    padding: 25px; /* Remove default padding of columns */
+    width: 500px;
+    position: relative;
+}
+
+.recipe {
+    border-bottom: 1px solid #ccc; /* Add border between cards */
+    padding: 10px;
+    margin: 0; /* Remove margin to prevent extra space */
+}
+
+.recipe h2 {
+
+    margin-top: 0;
+    text-align: center; /* Center-align the h2 element */
+}
+
+
+
+.recipe-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 40px;
+}
+
+.view-more {
+    display: block;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.view-more:hover {
+    background-color: #0056b3;
+}
+.food-image {
+    position: relative;
+}
+
+.food-image img {
+    position: absolute;
+    top: 0;
+    margin-left: 900px;
+    width: 70%;
+   height: auto;
+}

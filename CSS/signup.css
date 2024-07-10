@@ -1,0 +1,92 @@
+/* CSS for sign-up form */
+
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: 0; /* Add to reset default margin */
+}
+
+.bg-image {
+  background-image: url('bg4.jpg');
+  height: 100vh; /* Change height to viewport height */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  width: 100%;
+  z-index: -1;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.container {
+  display: flex; /* Use Flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Make container full height of viewport */
+}
+
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  z-index: 1; /* Ensure the form appears above the background */
+  position: relative; /* Set position relative for z-index to work */
+}
+
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signin input[type="text"],
+.form-signin input[type="email"],
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.btn-primary:active {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+a {
+  color: white; /* Change the color of anchor text */
+  font-size: 14px; /* Adjust font size */
+}
+
+a:hover {
+  color: lightgray; /* Change color on hover */
+}
+
+h1 {
+  color: #f1e0e0 !important; /* Change the color of heading */
+}

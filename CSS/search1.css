@@ -1,0 +1,44 @@
+/* styles.css */
+body{
+    font-size: larger;
+    padding: 20px;
+    /* background-color: rgb(238, 241, 241); */
+    background-color: azure;
+}
+h1 {
+    color: blue;
+    align-content: center;
+    margin-left: 35%;
+}
+
+h3.ingredients {
+    color: green;
+}
+
+h3.procedure {
+    color: red;
+    align-items: center;
+    margin-left: 200px;
+}
+
+
+.recipe-container {
+    position: relative;
+    border: 3px solid #1b1b1b;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 800px;
+    margin-left: 300px;
+    background-color: azure;
+    border-radius: 20px;
+}
+
+/* Image */
+.recipe-image {
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    right: 40px;
+    bottom: 0;
+    padding:30px;
+}
